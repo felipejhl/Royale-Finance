@@ -1,0 +1,55 @@
+body {
+    font-family: 'Amiko', sans-serif;
+    background-color: var(--color-darkblue);
+}
+
+
+.bg-yellow {
+    background-color: var(--color-yellow);
+
+}
+
+.bg-lightblue {
+    background-color: var(--color-lightblue);
+}
+
+.text-darkblue {
+    color: var(--color-darkblue);
+}
+
+.text-light {
+    color: var(--color-light);
+}
+
+.text-yellow {
+    color: var(--color-yellow);
+}
+
+.entrar {
+    width: 100%;
+}
+
+.entrar:hover {
+    background-color: var(--color-darkblue);
+    color: var(--color-yellow);
+    border-color: var(--color-yellow);
+}
+
+
+.form-control:focus {
+    background-color: var(--color-light-blue);
+}
+
+.form-control::placeholder {
+    color: #929292
+}
+
+.logo {
+    display: flex;
+    justify-content: center
+}
+
+.moeda {
+    max-height: 180px;
+    padding: auto;
+}
