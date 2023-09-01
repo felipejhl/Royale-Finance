@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="952118C0-5845-1DC9-40CA-439EB7576DDE" name="T_GASTO">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-29 22:52:13 UTC</createdTime>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<engineerTo>
+<item key="BE6393DA-7284-6219-8920-D2A0FD9CD772" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_gasto" id="8773C6E8-72AB-F0AF-B8D4-4CB7F83F75A7">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-29 22:52:23 UTC</createdTime>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<engineerTo>
+<item key="BE6393DA-7284-6219-8920-D2A0FD9CD772" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_gasto" id="588FD58F-C278-0077-C85B-812ED93F5B11">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-29 22:52:48 UTC</createdTime>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<engineerTo>
+<item key="BE6393DA-7284-6219-8920-D2A0FD9CD772" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_descricao" id="2A08CA2B-61B3-83CE-2CEC-273CBEEBFCFB">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-29 22:52:58 UTC</createdTime>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<engineerTo>
+<item key="BE6393DA-7284-6219-8920-D2A0FD9CD772" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_gasto" id="AE5B68B2-42A2-204F-83F6-D3390C7D16E1">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-29 22:54:17 UTC</createdTime>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<engineerTo>
+<item key="BE6393DA-7284-6219-8920-D2A0FD9CD772" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ob_observacao" id="F05A6E95-2BD3-C149-C640-25CC836EC95F">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-29 22:54:33 UTC</createdTime>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<engineerTo>
+<item key="BE6393DA-7284-6219-8920-D2A0FD9CD772" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="6ABBF6A2-9D4C-B435-E9BC-0995BD39D17B">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-29 23:39:55 UTC</createdTime>
+<generatorID>75BDB6C3-1AE0-2F23-7D1F-F8893F826558</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<engineerTo>
+<item key="BE6393DA-7284-6219-8920-D2A0FD9CD772" value="true"/>
+</engineerTo>
+<referedAttribute>B5504D27-2592-5F0C-3632-8A31AEA5DD91</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_categoria" id="5CFCA86D-D1D7-F81A-6542-AAE7514185FC">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:08:09 UTC</createdTime>
+<generatorID>0526EB0C-11DB-10A4-2111-CC172A20B285</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<engineerTo>
+<item key="BE6393DA-7284-6219-8920-D2A0FD9CD772" value="true"/>
+</engineerTo>
+<referedAttribute>DB7A7EF9-353C-2E88-7389-8D48830A5DE3</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AA48B8E7-FA59-5CB2-5101-5B9E8C6FCF4D" name="T_GASTO PK">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-29 22:55:37 UTC</createdTime>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<engineerTo>
+<item key="BE6393DA-7284-6219-8920-D2A0FD9CD772" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8773C6E8-72AB-F0AF-B8D4-4CB7F83F75A7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4928A823-89DF-3411-4E1F-080FC8D68BD1" name="T_USUARIO_ENDERECO">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>64D0CDA0-4110-1B6F-9111-3CB157FA946A</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_USUARIO_id_usuario" id="59045C29-8659-0ADE-D159-8411FE416AA4">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>2AFEE29C-A6E1-1A63-1AA4-E920A6D3EBB3</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E88A2DA8-9D72-C41B-E4C7-88A31DC16CAA" referredColumn="71BADAC5-8D67-7BBC-D15F-E25F1DA54793"/>
+</associations>
+</Column>
+<Column name="T_ENDERECO_nr_cep" id="1846F0AA-6DE7-CD68-73F6-7CBAF8019DD3">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>3242E194-8095-0DFC-8FE1-2B7FDEF78CC5</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53C3737A-F626-D718-F10D-A157DC2B58EE" referredColumn="8DD20DC3-A8F0-E4C6-BCA5-37ECF01B2CBB"/>
+</associations>
+</Column>
+<Column name="nr_endereco" id="7D6B2689-BB71-5EBC-58D9-5B7CA011EA0E">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>71FA8A4F-9667-D757-1FA0-08C10FFFC6A5</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_complemento" id="F335A4C2-DD25-5463-AB3C-B7710F5C57A8">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>24FBDC0E-812B-1A0A-7A9C-A88D1784B38C</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EA41AD60-E305-08B1-045B-502F39BB9F73" name="T_USUARIO_ENDERECO_PK">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>A7B42289-D834-534B-A788-411F08F895BE</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59045C29-8659-0ADE-D159-8411FE416AA4"/>
+<colUsage columnID="1846F0AA-6DE7-CD68-73F6-7CBAF8019DD3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC228BFE-C464-ECA1-E867-F46D4A0AF213" name="T_USUARIO_ENDERECO__IDX">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>57AF1E0F-9733-70DF-CE54-E366B1E85159</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="59045C29-8659-0ADE-D159-8411FE416AA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24B5C238-3CB3-6966-6066-F9A259824FA0" name="T_USUARIO_ENDERECO_T_USUARIO_FK">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>57AF1E0F-9733-70DF-CE54-E366B1E85159</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59045C29-8659-0ADE-D159-8411FE416AA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AFBCC687-F16B-7A55-9400-E83CB112F8C1" name="T_USUARIO_ENDERECO_T_ENDERECO_FK">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>67C64C19-8051-04D6-E37C-12CF1135519F</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1846F0AA-6DE7-CD68-73F6-7CBAF8019DD3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

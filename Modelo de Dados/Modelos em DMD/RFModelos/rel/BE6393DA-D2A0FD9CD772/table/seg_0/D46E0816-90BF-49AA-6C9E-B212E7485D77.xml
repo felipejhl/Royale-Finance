@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D46E0816-90BF-49AA-6C9E-B212E7485D77" name="T_CATEGORIA">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>D492AD22-C46F-81F0-2805-6AD068F01F29</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_categoria" id="D542AB8C-E890-A3B1-B17D-F187DD713F45">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>DB7A7EF9-353C-2E88-7389-8D48830A5DE3</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_categoria" id="A54B3BE7-426E-4691-C886-C53AA152EEE7">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>152C130D-433D-EF30-C3FE-B2D76167195A</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_cor" id="D658538B-FC61-E489-0EE2-29BD4BB7E2AA">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>95B8D768-C3E3-079B-E50F-F23AED421113</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A965975-DC8B-CBD8-7B42-64F097B710CB" name="T_CATEGORIA_PK">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>C3A96E8D-4660-7454-BCF5-57F2F159A56C</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D542AB8C-E890-A3B1-B17D-F187DD713F45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

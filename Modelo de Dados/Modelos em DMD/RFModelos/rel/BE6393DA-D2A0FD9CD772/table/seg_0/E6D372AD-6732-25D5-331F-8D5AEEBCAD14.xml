@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6D372AD-6732-25D5-331F-8D5AEEBCAD14" name="T_GASTO">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>952118C0-5845-1DC9-40CA-439EB7576DDE</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_gasto" id="9832BC6D-F657-07E8-0D81-E49C3BA3171C">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>8773C6E8-72AB-F0AF-B8D4-4CB7F83F75A7</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_gasto" id="403195EC-C921-0764-258F-F01F6C8CF3F1">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>588FD58F-C278-0077-C85B-812ED93F5B11</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_descricao" id="EEEB2E20-73F8-BB16-A6B8-353F34637CCF">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>2A08CA2B-61B3-83CE-2CEC-273CBEEBFCFB</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_gasto" id="B4F55013-55CC-71AE-9436-70540E9BE206">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>AE5B68B2-42A2-204F-83F6-D3390C7D16E1</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ob_observacao" id="073BC22F-1A1E-6299-F6F9-60F4EDDD2579">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>F05A6E95-2BD3-C149-C640-25CC836EC95F</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_USUARIO_id_usuario" id="EA954005-FBD3-642F-0F32-961D841A4521">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>6ABBF6A2-9D4C-B435-E9BC-0995BD39D17B</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99837B71-96F6-EAAB-6DB8-FF627CE2A150" referredColumn="71BADAC5-8D67-7BBC-D15F-E25F1DA54793"/>
+</associations>
+</Column>
+<Column name="T_CATEGORIA_id_categoria" id="E6279AC6-2BFF-5C66-E716-A9ED4F17E492">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>5CFCA86D-D1D7-F81A-6542-AAE7514185FC</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CAA339B5-6A85-1303-D341-5299A3C0C1B3" referredColumn="D542AB8C-E890-A3B1-B17D-F187DD713F45"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CAA0B230-EE50-5F20-EEF3-CB950A0F0F47" name="T_GASTO_PK">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>AA48B8E7-FA59-5CB2-5101-5B9E8C6FCF4D</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9832BC6D-F657-07E8-0D81-E49C3BA3171C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="217BAC56-75C5-9001-E281-19D4E90965F3" name="T_GASTO_T_USUARIO_FK">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>75BDB6C3-1AE0-2F23-7D1F-F8893F826558</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA954005-FBD3-642F-0F32-961D841A4521"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C2D5E7F-D3FC-8DB8-77FA-7BD8EB60B2DB" name="T_GASTO_T_CATEGORIA_FK">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>0526EB0C-11DB-10A4-2111-CC172A20B285</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6279AC6-2BFF-5C66-E716-A9ED4F17E492"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

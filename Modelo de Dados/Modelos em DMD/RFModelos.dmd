@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="RFModeloFisico" id="798BDF13-E394-BB88-95DB-7AC6F1B9BD29" version="3.5">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-29 22:15:17 UTC</createdTime>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>798BDF13-E394-BB88-95DB-7AC6F1B9BD29</designId>
+</OSDM_Design>

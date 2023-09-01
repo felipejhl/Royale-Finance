@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="DFCCE9B4-284C-22F2-6C1C-1C7713FCE85D">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-29 23:35:05 UTC</createdTime>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<engineerTo>
+<item key="BE6393DA-7284-6219-8920-D2A0FD9CD772" value="true"/>
+</engineerTo>
+<sourcePk>995BCD91-7AB9-1ED3-4382-EEDD71E42D5A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F87CBFC7-7DF1-7930-F60F-F1BA8C169B3A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>31BEDA29-08AF-5920-14A4-492A92EB3F94</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

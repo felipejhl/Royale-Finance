@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AADAEC72-49A9-432E-8101-47DE296F48E5" name="T_ENDERECO">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-29 23:18:44 UTC</createdTime>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<engineerTo>
+<item key="BE6393DA-7284-6219-8920-D2A0FD9CD772" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_cep" id="18D8E4FB-0CDD-AD29-0EF0-C7BED67422D5">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-29 23:18:52 UTC</createdTime>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<engineerTo>
+<item key="BE6393DA-7284-6219-8920-D2A0FD9CD772" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_logradouro" id="A191EF03-7DBF-07C5-4135-4CDF288B9F33">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-29 23:18:57 UTC</createdTime>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<engineerTo>
+<item key="BE6393DA-7284-6219-8920-D2A0FD9CD772" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_bairro" id="6E853C71-66C7-F4FB-1B78-53DF8BF9943E">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-29 23:35:12 UTC</createdTime>
+<generatorID>50DD2830-1C5B-4110-92F1-4F1599D07DE2</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<engineerTo>
+<item key="BE6393DA-7284-6219-8920-D2A0FD9CD772" value="true"/>
+</engineerTo>
+<referedAttribute>C93F5BA2-3F2C-FA95-2661-DB25E6FB800E</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="69BE084A-09BD-78F4-7434-0FB8404854EF" name="T_ENDERECO PK">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-29 23:19:11 UTC</createdTime>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<engineerTo>
+<item key="BE6393DA-7284-6219-8920-D2A0FD9CD772" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>18D8E4FB-0CDD-AD29-0EF0-C7BED67422D5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

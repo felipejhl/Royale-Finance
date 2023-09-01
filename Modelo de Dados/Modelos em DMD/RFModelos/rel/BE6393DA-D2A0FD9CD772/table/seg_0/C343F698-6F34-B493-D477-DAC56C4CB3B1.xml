@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C343F698-6F34-B493-D477-DAC56C4CB3B1" name="T_RECEBIMENTO">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>1AE31414-70F5-C4C2-DC91-B64FB3E3C442</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_recebimento" id="DCE07208-2C88-619F-B98C-22C61A3B29EA">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>93F6C5AA-122C-3F25-4D24-F29D1E83BB02</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_recebimento" id="0C8A4568-64FE-2D7B-81A2-81950DB0529D">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>E731E688-3B49-6F3A-E615-B9BB42A64B7D</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_descricao" id="7D646A6C-ABEB-9B8B-1574-FF5ECF70890E">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>9047AA70-8CAC-7339-A215-3C9B7097E5D3</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_recebimento" id="7E6B1C79-FF15-1701-7430-8F463D76ABEC">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>9CD33100-3A13-414E-3FD1-074677CD8801</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ob_observacao" id="61238A59-89E5-3CBD-927E-52E0C4888D31">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>74B4F795-09D7-1622-FFF9-D376D3E4698B</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_USUARIO_id_usuario" id="98EEF042-4E38-436A-C639-19013252ECE9">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>F4A22A56-B4C2-3EE7-BB26-DD546F3A470F</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE5356BB-A793-1F1E-243A-6AB91A8E7C7D" referredColumn="71BADAC5-8D67-7BBC-D15F-E25F1DA54793"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="15D3AB82-58AA-4409-3504-5F55EF9C55A2" name="T_RECEBIMENTO_PK">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>AAFF92D5-0350-FFEC-DC8D-54176E4F314D</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCE07208-2C88-619F-B98C-22C61A3B29EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE665128-2769-23FF-1956-031080697788" name="T_RECEBIMENTO_T_USUARIO_FK">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>C2BB94DE-C41B-7BCF-FBE7-3F86FD4A0D8A</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98EEF042-4E38-436A-C639-19013252ECE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

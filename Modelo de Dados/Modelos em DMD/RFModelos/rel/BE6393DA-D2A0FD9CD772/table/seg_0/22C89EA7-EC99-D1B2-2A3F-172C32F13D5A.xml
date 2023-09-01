@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="22C89EA7-EC99-D1B2-2A3F-172C32F13D5A" name="T_ENDERECO">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>AADAEC72-49A9-432E-8101-47DE296F48E5</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_cep" id="8DD20DC3-A8F0-E4C6-BCA5-37ECF01B2CBB">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>18D8E4FB-0CDD-AD29-0EF0-C7BED67422D5</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_logradouro" id="65BCA1A4-08DB-BBC7-8594-4F80A8F27210">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>A191EF03-7DBF-07C5-4135-4CDF288B9F33</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_BAIRRO_cd_bairro" id="124920EF-6331-5D3E-3178-11009930A3E5">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>6E853C71-66C7-F4FB-1B78-53DF8BF9943E</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A852F40-9A34-3DFA-ADA3-78CBE1DC622C" referredColumn="A7CD1B72-58AF-A71D-974B-EB867841B1A6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FA11B5B2-636C-23C0-E0AC-3110183B6256" name="T_ENDERECO_PK">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>69BE084A-09BD-78F4-7434-0FB8404854EF</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DD20DC3-A8F0-E4C6-BCA5-37ECF01B2CBB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AAAEB50-3221-BA1C-3839-84E96098FA0E" name="T_ENDERECO_T_BAIRRO_FK">
+<createdBy>solla</createdBy>
+<createdTime>2023-05-30 00:10:56 UTC</createdTime>
+<generatorID>50DD2830-1C5B-4110-92F1-4F1599D07DE2</generatorID>
+<ownerDesignName>RFModeloFisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="124920EF-6331-5D3E-3178-11009930A3E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
