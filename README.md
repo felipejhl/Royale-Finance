@@ -8,4 +8,5 @@ Até o momento, o Projeto conta com:
 
 - Protótipo do aplicativo mobile
 - Modelo conceitual do banco de dados
+- Modelo conceitual do diagrama de classe
 - Tela de login do site
